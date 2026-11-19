@@ -33,8 +33,7 @@ def cursorCmd(cmd, valueTuple=(), reading=False):
 
 
 if __name__ == "__main__":
-    #linhas = cursorCmd("SELECT id, nome, juros, periodo, tipo FROM interesse ORDER BY nome", (), "all")
-    linhas = cursorCmd("DESCRIBE interesse")
+    linhas = cursorCmd("SELECT id, nome, juros, periodo, tipo FROM interesse ORDER BY nome", (), "all")
     print("\n")
     for idd, nome, juros, periodo, tipo in linhas:
         print(f"id: {idd}, juros: {juros}, periodo: {periodo}, tipo: {tipo}")

@@ -49,4 +49,4 @@ if __name__ == "__main__":
 
     finally:
         print("-----CÓDIGO-----\n")
-        subprocess.run([python_executable,"conexao.py"])
+        subprocess.run([python_executable,"projetao.py"])
