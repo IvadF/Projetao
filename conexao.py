@@ -20,10 +20,10 @@ def conectar():
     )
 
 
-def cursorCmd(cmd, valueTuple=(), reading=False):
+def cursorCmd(cmd, reading=False):
     with conectar() as conexao:
         cursor = conexao.cursor()
-        cursor.execute(cmd, valueTuple)
+        cursor.execute(cmd)
         if reading == "all":
             return cursor.fetchall()
         elif reading == "one":
