@@ -216,7 +216,6 @@
               <object class="GtkButton" id="btn_excluir">
                 <property name="label" translatable="yes">Excluir</property>
                 <property name="visible">True</property>
-                <property name="sensitive">False</property>
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
               </object>
@@ -243,7 +242,6 @@
               <object class="GtkButton" id="btn_atualizar">
                 <property name="label" translatable="yes">Atualizar</property>
                 <property name="visible">True</property>
-                <property name="sensitive">False</property>
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
               </object>
@@ -276,7 +274,7 @@
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="label" translatable="yes">Tipo</property>
+                <property name="label" translatable="yes">------ Tipo ------</property>
                 <attributes>
                   <attribute name="weight" value="bold"/>
                 </attributes>
@@ -290,7 +288,7 @@
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="label" translatable="yes">Juros</property>
+                <property name="label" translatable="yes">------ Juros ------</property>
                 <attributes>
                   <attribute name="weight" value="bold"/>
                 </attributes>
@@ -304,7 +302,7 @@
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
-                <property name="label" translatable="yes">Nome</property>
+                <property name="label" translatable="yes">------ Nome ------</property>
                 <attributes>
                   <attribute name="weight" value="bold"/>
                 </attributes>
