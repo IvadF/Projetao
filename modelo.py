@@ -22,7 +22,7 @@ class modelo:
                 if i > 0:
                     wholeText += " AND"
                 if desc == "juros":
-                    wholeText += " " + desc + " = " + str(float(item)*.01)
+                    wholeText += " " + desc + " - " + str(float(item)*.01) + " < .0001"
                 else:
                     wholeText += " " + desc + " = '" + item + "'"
         print(wholeText)

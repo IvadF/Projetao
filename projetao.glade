@@ -259,14 +259,13 @@
           </packing>
         </child>
         <child>
-          <!-- n-columns=3 n-rows=2 -->
-          <object class="GtkGrid" id="tabela">
+          <!-- n-columns=3 n-rows=1 -->
+          <object class="GtkGrid">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
             <property name="margin-start">20</property>
             <property name="margin-end">20</property>
             <property name="margin-top">10</property>
-            <property name="margin-bottom">10</property>
             <property name="hexpand">True</property>
             <property name="vexpand">True</property>
             <property name="column-homogeneous">True</property>
@@ -312,6 +311,24 @@
                 <property name="top-attach">0</property>
               </packing>
             </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">3</property>
+          </packing>
+        </child>
+        <child>
+          <!-- n-columns=3 n-rows=1 -->
+          <object class="GtkGrid" id="tabela">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="margin-start">20</property>
+            <property name="margin-end">20</property>
+            <property name="margin-bottom">10</property>
+            <property name="hexpand">True</property>
+            <property name="vexpand">True</property>
+            <property name="column-homogeneous">True</property>
             <child>
               <placeholder/>
             </child>
@@ -325,7 +342,7 @@
           <packing>
             <property name="expand">True</property>
             <property name="fill">True</property>
-            <property name="position">3</property>
+            <property name="position">5</property>
           </packing>
         </child>
       </object>

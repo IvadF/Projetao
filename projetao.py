@@ -37,6 +37,9 @@ class App:
 
 
     def recarregar_tabela(self):
+        for child in self.tabela.get_children():
+            self.tabela.remove(child)
+        self.janela.resize(1,1)
         resposta = modelo.refresh()
         i = 0
         for nome,juros,periodo,tipo in resposta:
